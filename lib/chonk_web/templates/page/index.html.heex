@@ -1,0 +1,15 @@
+<form action="/forms/live" method="POST">
+<!--
+    <input
+        type="image"
+        src="/live/image.jpg?template=button&label=Submit&active=Submitting"
+        loading="lazy"
+        alt="Submit form" />
+-->
+    <label>Name: <input type="text" name="name" value={assigns[:name]} /></label>
+    <label>Message: <input type="text" name="message" /></label>
+
+    <input
+        type="submit"
+        value="Submit form" />
+</form>

@@ -1,0 +1,5 @@
+<%= if assigns["disabled"] do %>
+    <span foreground="white" background="gray"><%= assigns["label"] %></span>
+<% else %>
+    <span foreground="white" background="black"><%= assigns["label"] %></span>
+<% end %>
